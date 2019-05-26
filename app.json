@@ -1,30 +1,24 @@
 {
   "expo": {
     "name": "Kawai To Do",
-    "description": "Kawai To Do App make with React Native",
+    "description": "Kawai To Do App made with React Native",
     "slug": "kawai-todo",
     "privacy": "public",
     "sdkVersion": "32.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splash1.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#F23657"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "co.nomadcoders.kawai"
     }
   }
 }
